@@ -1,0 +1,173 @@
+#logo_section {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0%;
+}
+
+#logo_items a {
+    text-decoration: none;
+    color: black;
+}
+#logo_items:hover {
+    cursor: pointer;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+#logo_items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+    padding-left: 40rem;
+}
+
+.child_div {
+    color: rgb(13, 13, 76);
+    font-weight: bolder;
+    font-size: 25px;
+    list-style: none;
+}
+
+/*FIRST SECTION*/
+#Home {
+    position: relative;
+    /*reference point for the text(thiz box is the area)*/
+    background-size: cover;
+
+}
+
+.img_info_section {
+    width: 100%;
+    height: 100vh;
+}
+
+.text_01 {
+    font-size: 100em;
+    color: aliceblue;
+    right: 35%;
+    top: 40%;
+    position: absolute;
+    /* place it anywhere inside that area(means refrence point a box)*/
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+
+    margin-left: 20%;
+    margin-right: 20%;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    color: grey;
+}
+
+/* SECOND SECTION */
+
+#provinces {
+    height: 250px;
+    width: 100px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+.h2_province {
+    font-size: 30px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.child_provinces {
+    text-align: center;
+    width: 250px;
+    height: 240px;
+    border: 0.5px solid grey;
+}
+
+.chid_provinces img {
+    display: block;
+    /* adjust perfectly*/
+}
+
+
+/* third section */
+#About {
+    position: relative;
+    /*reference point for the text(thiz box is the area)*/
+    background-size: cover;
+}
+
+#About img {
+    width: 100%;
+    height: 400px;
+    filter: brightness(65%);
+    /* adjusting brightness */
+}
+
+#text_02 {
+    color: white;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+    position: absolute;
+    /* place it anywhere inside that area(means refrence point a box)*/
+    font-weight: 900;
+    text-align: center;
+}
+
+/* contact section*/
+
+#parent_contact {
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.child_contact button {
+    margin-top: 6%;
+    margin-bottom: 8%;
+    background-color: orangered;
+    color: aliceblue;
+    border: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+.child_contact input {
+    width: 400px;
+    height: 20px;
+}
+
+.child_contact select {
+    width: 400px;
+    height: 30px;
+}
+
+.child_contact textarea {
+    width: 400px;
+    height: 100px;
+}
+
+/*footer */
+#footer {
+    height: 100px;
+    background: rgb(13, 13, 76);
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
